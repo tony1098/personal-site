@@ -1,0 +1,22 @@
+body {
+    background-color: #EAF6F6;
+}
+
+h1 {
+    color: #66BFBF
+}
+
+h3 {
+    color: #66BFBF
+}
+
+hr {
+    background-color: white;
+    border-style: none;
+    height: 2px;
+}
+
+.huge {
+    font-size: 10rem;
+    font-weight: bold;
+}
