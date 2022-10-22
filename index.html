@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Tony's Personal Site</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tony's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
+  </head>
 
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/tony.png" alt="tony profile pic" width="170" height="170"></td>
-                <td><h1>Tony Tarng</h1>
-                <p><em>Software Engineer</em></p>
-                <p>Currently a MS ECE student at UW</p></td>
-            </tr>
-        </table>
-        <hr>
+  <body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Tony.</h1>
+        <h3>a software engineer.</h3>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
 
-        <h3>Education</h3>
-        <ul>
-            <li>University of Washington, MS ECE</li>
-            <li>National Chiao Tung University, MS CS</li>
-            <li>City University of Hong Kong, BS CE</li>
-        </ul>
-        <hr>
-
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-pic" src="images/tony.png" alt="profile-pic">
+      </div>
+      <div class="skills">
+        <h2>My Experiences</h2>
+        <div class="skill-row">
+          <img class="coding-pic" src="images/coding.png" alt="coding-pic">
+          <h3>Professional</h3>
+          <table cellspacing="15">
             <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
+              <tr>
+                <th>Dates</th>
+                <th>Work</th>
+              </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>2022-2022</td>
-                    <td>Software Engineer Intern at Aurora Innovation</td>
-                </tr>
-                <tr>
-                    <td>2020-2021</td>
-                    <td>Software Engineer at Synopsys</td>
-                </tr>
-                <tr>
-                    <td>2018-2018</td>
-                    <td>Software Engineer Intern at Industrial Technology Research Institute</td>
-                </tr>
+              <tr>
+                <td>2022/06-2022/09</td>
+                <td>Software Engineer Intern at Aurora Innovation</td>
+              </tr>
+              <tr>
+                <td>2020/10-2021/09</td>
+                <td>Software Engineer at Synopsys</td>
+              </tr>
+              <tr>
+                <td>2018/06-2018/12</td>
+                <td>Software Engineer Intern at Industrial Technology Research Institute</td>
+              </tr>
             </tbody>
-        </table>
-        <hr>
+          </table>
+        </div>
+        <div class="skill-row">
+          <img class="education-pic" src="images/education.png" alt="education-pic">
+          <h3>Education</h3>
+          <ul>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Washington, MS ECE</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;National Chiao Tung University, MS CS</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City University of Hong Kong, BS CE</p>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <a class="btn" href="mailto:tonytarng1098@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
-        <h3>Misc</h3>
-        <ul>
-            <li><a href="https://calm-ocean-46348.herokuapp.com/">Subscribe to My Newsletter</a></li>
-            <li><a href="weather.html">See Weather</a></li>
-        </ul>
-    <script src="index.js"></script>
-    </body>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/tonytarng/">LinkedIn</a>
+      <a href="https://calm-ocean-46348.herokuapp.com/">Subscribe to My Newsletter</a>
+      <p class="copyright">© 2022 Tony Tarng</p>
+    </div>
+  <script src="index.js"></script>
+  </body>
 </html> 
