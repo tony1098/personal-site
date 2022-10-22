@@ -74,13 +74,15 @@ a:hover {
 .top-cloud {
     position: absolute;
     right: 350px;
-    top: 40px;
+    top: 60px;
+    width: 200px;
 }
 
 .bottom-cloud {
     position: absolute;
     left: 300px;
-    bottom: 300px;
+    bottom: 340px;
+    width: 200px;
 }
 
 .coding-pic {
@@ -95,6 +97,14 @@ a:hover {
     height: 170px;
     float: left;
     margin-right: 30px;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.mountain-pic {
+    margin-top: 80px;
 }
 
 .profile-pic {
